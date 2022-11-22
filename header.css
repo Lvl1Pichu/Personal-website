@@ -1,3 +1,16 @@
+*{
+    background-color: #013328;
+}
+
+.testinnnng{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-color: #CC8B65;
+
+}
+
 .header{
     padding-top: 2.33em;
 }
@@ -48,7 +61,7 @@ a:hover{
     overflow: hidden;
     margin-left: auto;
     padding: 0.75em 1em;
-    border: 1px solid #111;
+    border: 1px solid #228B22	;
     border-radius: 100vw;
     transform: translate(0,0);
     transition: color .2s;
@@ -57,7 +70,7 @@ a:hover{
 }
 
 .header-button:hover{
-    color: #fff;
+    color: #228B22	;
 }
 
 .header-button-text{
