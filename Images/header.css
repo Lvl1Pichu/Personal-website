@@ -1,0 +1,98 @@
+*{
+    background-color: #013328;
+}
+
+.testinnnng{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-color: #CC8B65;
+
+}
+
+.header{
+    padding-top: 2.33em;
+}
+
+.page-padding{
+    width: 100%;
+}
+
+.container{
+    max-width: 90em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header-logo{
+    color: #111;
+    font-size: .8em;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.w-inline-block{
+    max-width: 100%;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: inherit;
+}
+
+a:hover{
+    color: #111;
+    text-decoration: none;
+}
+
+.header-button {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    padding: 0.75em 1em;
+    border: 1px solid #228B22	;
+    border-radius: 100vw;
+    transform: translate(0,0);
+    transition: color .2s;
+    font-size: .8em;
+    line-height: 1.2;
+}
+
+.header-button:hover{
+    color: #228B22	;
+}
+
+.header-button-text{
+    position: relative;
+    z-index: 1;
+}
+
+.button-fill{
+    position: absolute;
+    left: -1%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 102%;
+    height: 102%;
+    background-color: #111;
+    -webkit-transform: scale3d(1,0,1);
+    transform: scale3d(1,0,1);
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    color: #111;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
