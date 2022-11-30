@@ -1,0 +1,101 @@
+
+.wrapper {
+  animation: scroll 70s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+
+/*Carousel CSS*/
+
+@import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
+body{
+	font-family: "Josefin Slab";
+	height: 100vh;
+	background-color: #222;
+}
+
+.project-carousel{
+	position: relative;
+	padding: 50px 0;
+}
+
+.project-strip{
+	margin: 150px 0 150px;
+	filter: blur(10px);
+}
+.project{
+		cursor: pointer;
+	}
+img{
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+
+	}
+
+
+.project-screen{
+	width: 768px;
+	height: 451px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+	.project-detail{
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 578px;
+		height: 361px;
+		margin: 32px auto 0;
+		z-index: 1;
+		background-color: #333;
+	}
+	
+.screen-frame{
+		content:" ";
+		width: 768px;
+		height: 451px;
+		position: absolute;
+		background-image: url("https://dl.dropboxusercontent.com/u/26808427/cdn/experiments/training/macbook-frame.png");
+		background-repeat: no-repeat;
+	}
+	
+	.project{
+		margin-right: -100%;
+		float: left;
+		cursor: move;
+	}
+	
