@@ -22,3 +22,28 @@ body {
 .navbar-nav .nav-item:hover {
     background-color: rgba(180, 190, 203, 0.4);
   }
+
+  
+a{
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+a:hover{
+  color: #111;
+  text-decoration: none;
+}
+
+.w-button{
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: teal;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}

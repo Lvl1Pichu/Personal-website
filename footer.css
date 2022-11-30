@@ -3,6 +3,38 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 4em;
 
 }
 
+.bottom-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.header-footer{
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.paragraph-footer{
+    padding-top: 28px;
+    padding-right: 124px;
+    padding-left: 124px;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact{
+    background-color: black;
+}
