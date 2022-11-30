@@ -1,24 +1,21 @@
-.main-content{
-  background-image: url(/Images/Background\ main\ section.jpg)
-}
-
-
-
 .heading-2 {
-    top: 87px;
+    top: 300px;
     z-index: 2;
-    color: #0f0f0f;
-    font-size: 4em;
+    color: beige;
+    font-size: 6em;
     line-height: 0.8em;
     letter-spacing: -0.7px;
-    opacity: .2;
-    top: 0px;
+    opacity: .3;
+    position: absolute;
+    right: 1000px;
 }
+
+/*OBS SÄTT MEDIAMARKERS FÖR HEADING-2*/
 
 .dot {
     height: 8px;
     width: 8px;
-    background-color: #228B22;
+    background-color: teal;
     border-radius: 50%;
     display: inline-block;
   }
