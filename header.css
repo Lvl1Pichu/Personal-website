@@ -32,18 +32,6 @@
     display: inline-block;
 }
 
-a{
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
-    color: inherit;
-}
-
-a:hover{
-    color: #111;
-    text-decoration: none;
-}
-
 .header-button {
     position: relative;
     overflow: hidden;

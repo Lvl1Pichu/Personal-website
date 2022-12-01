@@ -26,21 +26,11 @@
   }
 }
 
-@media (min-width: 670px) {
-  .title {
-    font-size: 5rem;
-  }
-}
 
 
 /*Carousel CSS*/
 
 @import 'https://fonts.googleapis.com/css?family=Josefin+Slab';
-body{
-	font-family: "Josefin Slab";
-	height: 100vh;
-	background-color: #222;
-}
 
 .project-carousel{
 	position: relative;
@@ -60,8 +50,6 @@ img{
 		height: auto;
 
 	}
-
-
 .project-screen{
 	width: 768px;
 	height: 451px;
@@ -72,8 +60,7 @@ img{
 	bottom: 0;
 	margin: auto;
 }
-
-	.project-detail{
+.project-detail{
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -82,20 +69,18 @@ img{
 		margin: 32px auto 0;
 		z-index: 1;
 		background-color: #333;
-	}
-	
+}
 .screen-frame{
 		content:" ";
 		width: 768px;
 		height: 451px;
 		position: absolute;
-		background-image: url("https://dl.dropboxusercontent.com/u/26808427/cdn/experiments/training/macbook-frame.png");
 		background-repeat: no-repeat;
-	}
+}
 	
-	.project{
+.project{
 		margin-right: -100%;
 		float: left;
 		cursor: move;
-	}
+}
 	
