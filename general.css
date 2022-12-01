@@ -60,13 +60,19 @@ a:hover{
 
 .button {
   position: relative;
-  top: 0px;
   padding: 15px 25px;
   border: solid #1a1a1a 3px;
   border-radius: 20px;
   margin: 10px;
   box-shadow: 0px 10px 0px #1a1a1a;
   color: black;
+}
+
+.fixed{
+  position: fixed !important;
+  top: 0;
+  right: 1rem;
+  z-index: 100;
 }
 
 .button:hover {
@@ -87,4 +93,12 @@ a:hover{
 }
 .white:active {
   background: #ddd;
+}
+
+.side-box {
+  position: relative;
+}
+
+.typewriter-container{
+  width: fit-content;
 }

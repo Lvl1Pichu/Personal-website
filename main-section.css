@@ -1,46 +1,44 @@
 .heading-2 {
-    top: 250px;
-    z-index: 2;
+    top: 0;
+    left: 0;
+    z-index: -10;
     color: beige;
     font-size: 6em;
     line-height: 0.8em;
     letter-spacing: -0.7px;
     opacity: .3;
     position: absolute;
-    right: 580px;
-    display: flex;
-    justify-content: center;
 }
 
 /*OBS SÄTT MEDIAMARKERS FÖR HEADING-2*/
 
 .dot {
-    height: 8px;
-    width: 8px;
-    background-color: teal;
-    border-radius: 50%;
-    display: inline-block;
-  }
+  height: 8px;
+  width: 8px;
+  background-color: teal;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 .social-icon{
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        width: 3em;
-        height: 3em;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border: 1px solid #111;
-        border-radius: 50%;
-        background-color: #D08856;
-        -webkit-transition: color .3s,background-color .3s;
-        transition: color .3s,background-color .3s;
-        text-decoration: none;
-    }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3em;
+  height: 3em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #111;
+  border-radius: 50%;
+  background-color: #D08856;
+  -webkit-transition: color .3s,background-color .3s;
+  transition: color .3s,background-color .3s;
+  text-decoration: none;
+}
