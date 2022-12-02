@@ -38,20 +38,6 @@
     background-color: black;
 }
 
-.hire-me {
-    position: absolute;
-    top: 50%;
-    z-index: -1;
-}
-
-.hire-me-text {
-    color: beige;
-    font-size: 21em;
-    line-height: 1;
-    font-weight: 500;
+.lets-work-together{
     text-align: center;
-    text-transform: uppercase;
-    opacity: .1;
-    
 }
-
