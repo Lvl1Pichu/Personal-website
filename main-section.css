@@ -10,8 +10,6 @@
     position: absolute;
 }
 
-/*OBS SÄTT MEDIAMARKERS FÖR HEADING-2*/
-
 .dot {
   height: 8px;
   width: 8px;
@@ -35,10 +33,33 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #111;
+  border: 1px solid teal;
   border-radius: 50%;
-  background-color: #D08856;
-  -webkit-transition: color .3s,background-color .3s;
-  transition: color .3s,background-color .3s;
+  background-color: teal;
   text-decoration: none;
+}
+
+.container-projekt{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-border-container{
+  border: 1px solid teal;
+  border-radius: 50%;
+}
+
+.about-me-container{
+  margin-top: 3em;
+  border: 1px solid teal;
+  max-width: 940px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-about{
+  padding-left: 12px;
 }

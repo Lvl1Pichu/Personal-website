@@ -16,9 +16,14 @@ a{
   color: inherit;
 }
 
-a:hover{
-  color: #111;
+.paragraph-footer a:hover{
+  color: teal;
   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
 }
 
 .w-button{
@@ -72,6 +77,13 @@ a:hover{
   position: fixed !important;
   top: 0;
   right: 1rem;
+  z-index: 100;
+}
+
+.fixed-cv{
+  position: fixed !important;
+  top: 0;
+  right: 15em;
   z-index: 100;
 }
 
