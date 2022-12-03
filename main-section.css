@@ -1,3 +1,17 @@
+.wrapper{
+  margin-top: 20em;
+  height: 60%;
+}
+
+
+.wrapper, p {
+  font-size: 1.2em;
+}
+
+.paragraph-header{
+  padding-left: 0 !important;
+}
+
 .heading-2 {
     top: 0;
     left: 0;
@@ -7,6 +21,7 @@
     letter-spacing: -0.7px;
     opacity: .3;
     position: absolute;
+    font-size: 6em;
 }
 
 .dot {
@@ -50,6 +65,11 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px 25px;
+  border: solid #1a1a1a 3px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 0px #1a1a1a;
+  color: black;
 }
 
 .left-about{
