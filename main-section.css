@@ -3,7 +3,6 @@
   height: 60%;
 }
 
-
 .wrapper, p {
   font-size: 1.2em;
 }
@@ -53,14 +52,8 @@
   text-decoration: none;
 }
 
-.round-border-container{
-  border: 1px solid teal;
-  border-radius: 50%;
-}
-
-.about-me-container{
+.information-container{
   margin-top: 3em;
-  border: 1px solid teal;
   max-width: 940px;
   width: 100%;
   margin-left: auto;
@@ -70,6 +63,9 @@
   border-radius: 20px;
   box-shadow: 0px 10px 0px #1a1a1a;
   color: black;
+  background-image: url(/Personal-website/Images/pexels-photo-5877860.jpeg);
+  background-repeat: no-repeat;
+  background-color: aqua;
 }
 
 .left-about{
