@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     margin: 3em;    
 
 }
@@ -28,10 +27,9 @@
 
 .paragraph-footer{
     padding-top: 28px;
-    padding-right: 124px;
-    padding-left: 124px;
     text-align: center;
     text-decoration: none;
+    width: 100%;
 }
 
 .contact{
