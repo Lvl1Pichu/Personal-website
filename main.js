@@ -1,8 +1,8 @@
 const bild1 = "./backgrounds/sand-scrolling-background.avif";
 const bild2 = "./backgrounds/pexels-photo-924824.jpeg";
-const bild3 = "/backgrounds/Starry sand.jpeg";
-const bild4 = "/backgrounds/triangle.webp";
-const bild5 = "/backgrounds/Wood.jpeg";
+const bild3 = "./backgrounds/Starry sand.jpeg";
+const bild4 = "./backgrounds/triangle.webp";
+const bild5 = "./backgrounds/Wood.jpeg";
 
 let currentIndex = 0;
 var backgroundEffects = [
