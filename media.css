@@ -1,7 +1,4 @@
 @media only screen and (max-width: 600px){
-    .heading-2{
-        font-size: 2em;
-    }
 
     .button{
         font-size: small;
@@ -25,5 +22,9 @@
 
     .left-about{
         width: 100% !important;
+    }
+
+    .wrapper{
+        margin-top: 10em;
     }
 }
