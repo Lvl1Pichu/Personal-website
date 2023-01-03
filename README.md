@@ -6,3 +6,6 @@ Since we have yet to learn how to download an NPM package and only using vanilla
 Will keep adding functionality until I am proud enough over the end result to present to eventual recruiters. 
 
 Call the JS file by pressing left and right arrow button to change the scrolling background. 
+
+https://lvl1pichu.github.io/Personal-website/
+
