@@ -1,5 +1,4 @@
-import React from 'react';
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Navbar = () => {
   return (
@@ -36,7 +35,7 @@ const NavList = styled.ul`
 
 const NavItem = styled.li`
   margin: 0 10px;
-  color: #5C4033;
+  color: #5c4033;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
